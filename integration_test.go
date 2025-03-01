@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/yuin/goldmark"
 	"github.com/yuin/goldmark/parser"
-	"go.abhg.dev/goldmark/anchor"
+	"github.com/thiagokokada/goldmark-anchor"
 	"gopkg.in/yaml.v3"
 )
 

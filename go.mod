@@ -1,4 +1,4 @@
-module go.abhg.dev/goldmark/anchor
+module github.com/thiagokokada/goldmark-anchor
 
 go 1.20
 
