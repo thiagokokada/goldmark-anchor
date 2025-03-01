@@ -49,7 +49,7 @@ func (r *Renderer) RenderNode(w util.BufWriter, _ []byte, node ast.Node, enterin
 	_, _ = w.WriteString(` href="#`)
 	_, _ = w.Write(util.EscapeHTML(n.ID))
 	_, _ = w.WriteString(`">`)
-	_, _ = w.Write(util.EscapeHTML(n.Value))
+	_, _ = w.Write(n.Value)
 	_, _ = w.WriteString("</a>")
 
 	return ast.WalkContinue, nil
